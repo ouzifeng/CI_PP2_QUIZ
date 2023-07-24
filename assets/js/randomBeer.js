@@ -5,7 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const imgDisplay = document.querySelector(".beer-img");
     const abvDisplay = document.querySelector(".beer-abv");
 
-    /* Retreived necessary beer data from API and displays beer data on landing page */
+    /* Uses a placeholder image in case image from API is null or empty */
+    function setPlaceholderImage(imgElement) {
+    const placeholderImageUrl = window.location.origin + '/assets/images/placeholder_beer_image.png';
+    imgElement.src = placeholderImageUrl;
+    }
+
+    /* Displays beer data on landing page */
      function displayBeerDetails(data) {
         const name = data[0].name;
         const image_url = data[0].image_url;
@@ -23,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
             setPlaceholderImage(imgDisplay);
         }
     }
-    
+     /* Gets beer data from API */
     function getBeer(url) {
         fetch(url)
             .then(response => response.json())
