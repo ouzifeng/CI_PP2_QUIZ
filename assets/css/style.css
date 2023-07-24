@@ -8,6 +8,11 @@ body {
     /*background-color: transparent !important;*/
 }
 
+.wrapper {
+    max-width: 1180px;
+    margin: auto;
+}
+
 .container-fluid {
     margin: auto;
     max-width: 1180px;
@@ -19,8 +24,32 @@ body {
     background-color: #FDFFFC;
 }
 
+.header {
+    position: relative;
+    width: 1180px;
+    height: 400px;
+    background-image: url("../images/brewdog-beer.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 80%;
+    background-color: rgb(0 0 0 / 72%);
+    padding: 10px;
+}
+
 
 .beer-img {
     max-height: 300px;
     margin: auto;
 }
+
