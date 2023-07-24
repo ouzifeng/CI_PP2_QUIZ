@@ -49,4 +49,8 @@ document.addEventListener('DOMContentLoaded', () => {
         getBeer(randomUrl);
     });
 
+    // Generates a random beer on page load
+    const randomUrl = 'https://api.punkapi.com/v2/beers/random';
+    getBeer(randomUrl);
+
 });
