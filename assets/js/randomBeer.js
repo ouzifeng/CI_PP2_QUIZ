@@ -24,4 +24,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
     
+    function getBeer(url) {
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                displayBeerDetails(data);
+            })
+            .catch(error => {
+                console.error('Error fetching beer data:', error);
+                setPlaceholderImage(imgDisplay);
+            });
+    }
+
 });
