@@ -44,4 +44,13 @@ document.addEventListener('DOMContentLoaded', () => {
         setPlaceholderImage(imgDisplay)
       })
   }
+
+  // Search event listener which searches for a beer when user inputs in search bar
+  searchInput.addEventListener('input', event => {
+    const searchTerm = event.target.value.trim()
+    const searchUrl = `https://api.punkapi.com/v2/beers?beer_name=${encodeURIComponent(
+      searchTerm
+    )}`
+    getBeer(searchUrl)
+  })
 })
