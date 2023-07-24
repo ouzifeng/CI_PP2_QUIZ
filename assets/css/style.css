@@ -1,24 +1,26 @@
 body {
     margin: 0;
     min-height: 100vh;
-    background: linear-gradient(0deg, hsla(191, 75%, 60%, 1) 0%, hsla(248, 87%, 36%, 1) 100%);
-    justify-content: center;
-}
-
-
-.container {
-    max-width: 1280px;
-    background-color: transparent;
-    padding: 0;
+    /* background: linear-gradient(0deg, hsla(191, 75%, 60%, 1) 0%, hsla(248, 87%, 36%, 1) 100%);*/
 }
 
 .navbar {
-    background-color: transparent !important;
+    /*background-color: transparent !important;*/
 }
 
-.container1 {
-    max-width: 1280px;
-    background-color: white;
-    padding: 20px;
-    text-align: center;
+.container-fluid {
+    margin: auto;
+    max-width: 1180px;
+}
+
+.container {
+    max-width: 1180px;
+    margin: auto;
+    background-color: #FDFFFC;
+}
+
+
+.beer-img {
+    max-height: 300px;
+    margin: auto;
 }
