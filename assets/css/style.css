@@ -1,21 +1,19 @@
-@font-face {
-  font-family: 'Climate Crisis';
-  src: url('../fonts/ClimateCrisis.ttf') format('truetype'),
-}
-
 
 h1 {
-  font-family: 'Bangers', cursive;
+  font-family: 'Bangers', sans-serif, cursive;
   color: #3498db;
   text-shadow: 2px 2px #2980b9;
   font-size: 100px;
 }
 
 h2 {
-  font-family: 'Bangers';
+  font-family: 'Bangers', sans-serif;
   color: #3498db;
-  text-shadow: 2px 2px #2980b9;
   font-size: 50px;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
 }
 
 
@@ -47,6 +45,11 @@ body {
 
 .navbar {
     background-color: #ff5400 !important;
+}
+
+.navbar a {
+    font-family: 'Bangers';
+    color: #3498db;
 }
 
 .wrapper {
