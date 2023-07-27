@@ -69,7 +69,15 @@ body {
 }
 
 
+.container-1 {
+    max-width: 1180px;
+    margin: auto;
+}
 
+.container-1 h2 {
+    padding-top: 60px !important;
+    text-align: center;
+}
 
 .beer-img {
     max-height: 300px;
@@ -178,4 +186,8 @@ span.feeling {
     padding: 1rem 1.5rem;
     line-height: 2rem; /* 32px */
   }
+}
+
+.quiz-entry {
+    background-color: #f3de2c;
 }
