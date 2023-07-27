@@ -1,3 +1,44 @@
+@font-face {
+  font-family: 'Climate Crisis';
+  src: url('../fonts/ClimateCrisis.ttf') format('truetype'),
+}
+
+
+h1 {
+  font-family: 'Bangers', cursive;
+  color: #3498db;
+  text-shadow: 2px 2px #2980b9;
+  font-size: 100px;
+}
+
+h2 {
+  font-family: 'Bangers';
+  color: #3498db;
+  text-shadow: 2px 2px #2980b9;
+  font-size: 50px;
+}
+
+
+.header {
+    position: relative;
+    height: 400px;
+    background-color: #ff5400;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+
+.header-content {
+    position: absolute;
+    width: 1180px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
 body {
     margin: 0;
     min-height: 100vh;
@@ -5,7 +46,7 @@ body {
 }
 
 .navbar {
-    /*background-color: transparent !important;*/
+    background-color: #ff5400 !important;
 }
 
 .wrapper {
@@ -24,35 +65,78 @@ body {
     background-color: #FDFFFC;
 }
 
-.header {
-    position: relative;
-    width: 1180px;
-    height: 400px;
-    background-image: url("../images/brewdog-beer.webp");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin: auto;
-}
 
-.header-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-    width: 80%;
-    background-color: rgb(0 0 0 / 72%);
-    padding: 10px;
-}
 
 
 .beer-img {
     max-height: 300px;
-    margin: auto;
+    margin-right: 40px;
+    float: right;
 }
 
 span.feeling {
     font-style: italic;
+}
+
+.quiz-card {
+    background: blue;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.quiz-card h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+#question {
+    font-size: 30px;
+}
+
+.btn {
+    background: white;
+    color: black;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    margin: 10px 0;
+    cursor: pointer;
+    background-clip: padding-box;
+}
+
+.btn:disabled {
+    opacity: 1 !important;
+    background: white !important;
+}
+
+.btn.correct:disabled {
+    background: green !important;
+}
+
+.btn.incorrect:disabled {
+    background: red !important;
+}
+
+
+#next-question {
+    background: white;
+    cursor: pointer;
+    display: none;
+}
+
+.correct {
+    background: green !important;
+}
+
+.incorrect {
+    background: red !important;
 }
