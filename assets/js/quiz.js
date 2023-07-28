@@ -28,3 +28,12 @@ const nextButton = document.getElementById('next-question')
 // Create variable to store question index and score
 let currentQuestionIndex = 0
 let score = 0
+
+// This function starts the quiz
+function startQuiz () {
+  currentQuestionIndex = 0 // starts quiz at first question
+  score = 0 // starts score at 0
+  nextButton.innerHTML = 'Next'
+  // calls function showQuestion
+  showQuestion()
+}
