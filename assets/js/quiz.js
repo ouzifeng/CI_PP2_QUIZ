@@ -56,3 +56,11 @@ function showQuestion () {
     button.addEventListener('click', selectAnswer) // Corrected here
   })
 }
+
+// This function removes the html Answers 1-4 from the quiz
+function resetQuestions () {
+  nextButton.style.display = 'none'
+  while (answerArea.firstChild) {
+    answerArea.removeChild(answerArea.firstChild)
+  }
+}
