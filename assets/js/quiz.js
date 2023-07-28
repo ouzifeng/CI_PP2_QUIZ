@@ -84,3 +84,6 @@ function selectAnswer (e) {
   })
   nextButton.style.display = 'block'
 }
+
+// Start the quiz!
+startQuiz()
