@@ -81,6 +81,13 @@ function selectAnswer (e) {
       button.classList.add('correct')
     }
     button.disabled = true
+
+    if (currentQuestionIndex === questions.length - 1) {
+      nextButton.style.display = 'none'
+      document.getElementById('resultForm').style.display = 'block'
+    } else {
+      nextButton.style.display = 'block'
+    }
   })
 
   // Update the score display
