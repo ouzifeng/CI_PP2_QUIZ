@@ -11,7 +11,7 @@ emailjs
   .send('service_7cwu2tw', 'template_cyk3kf9', {
     from_name: document.getElementById('name').value,
     from_email: document.getElementById('email').value,
-    message: 'Your score: ' + score
+    message: 'Your score: ' + score + ' out' + ' of' + ' 10'
   })
   .then(
     function () {

@@ -54,6 +54,14 @@ function showQuestion () {
     }
     button.addEventListener('click', selectAnswer)
   })
+
+  // Calculate the progress
+  let progress = ((currentQuestionIndex + 1) / questions.length) * 100
+
+  // Update the progress bar
+  let progressBar = document.querySelector('.progress-bar')
+  progressBar.style.width = progress + '%'
+  progressBar.setAttribute('aria-valuenow', progress)
 }
 
 // This function removes the html Answers 1-4 from the quiz

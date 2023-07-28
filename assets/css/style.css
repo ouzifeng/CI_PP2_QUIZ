@@ -204,3 +204,7 @@ span.feeling {
     max-width: 250px;
     margin-bottom: 100px;
 }
+
+.progress-bar {
+  transition: width 0.3s ease-in-out;
+}
