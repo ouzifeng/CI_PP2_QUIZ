@@ -37,3 +37,22 @@ function startQuiz () {
   // calls function showQuestion
   showQuestion()
 }
+
+// This function displays the questions
+function showQuestion () {
+  resetQuestions()
+  let currentQuestion = questions[currentQuestionIndex]
+  let questionNo = currentQuestionIndex + 1 // add 1 to the question index so that the next question shows
+  questionArea.innerHTML = questionNo + '. ' + currentQuestion.question // updates the question element with questions
+
+  currentQuestion.answers.forEach(answer => {
+    const button = document.createElement('button')
+    button.innerHTML = answer.text
+    button.classList.add('btn')
+    answerArea.appendChild(button)
+    if (answer.isCorrect) {
+      button.dataset.correct = 'true'
+    }
+    button.addEventListener('click', selectAnswer) // Corrected here
+  })
+}
