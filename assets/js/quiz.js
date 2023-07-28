@@ -19,3 +19,8 @@ const questions = [
     ]
   }
 ]
+
+// Create variables for the questions, answers and next question button
+const questionArea = document.getElementById('question')
+const answerArea = document.getElementById('answer')
+const nextButton = document.getElementById('next-question')
