@@ -11,6 +11,7 @@
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <!-- CSS Files-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Brew Dog</title>
@@ -58,7 +59,15 @@
                 <button id="next-question">Next Question</button>
             </div>
             <h3>Your Score <span id="score"></span></h3>
+            <form id="resultForm" style="display: none;">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <input type="submit" value="Submit">
+            </form>
         </div>
+
 
     </div>
 
