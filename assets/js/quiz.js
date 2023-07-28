@@ -82,7 +82,13 @@ function selectAnswer (e) {
     }
     button.disabled = true
   })
-  nextButton.style.display = 'block'
+  // Automatically go to next question after 1 second
+  setTimeout(() => {
+    currentQuestionIndex++
+    if (currentQuestionIndex < questions.length) {
+      showQuestion()
+    }
+  }, 1000)
 }
 
 // Start the quiz!
