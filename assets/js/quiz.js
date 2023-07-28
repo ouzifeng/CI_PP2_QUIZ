@@ -24,3 +24,7 @@ const questions = [
 const questionArea = document.getElementById('question')
 const answerArea = document.getElementById('answer')
 const nextButton = document.getElementById('next-question')
+
+// Create variable to store question index and score
+let currentQuestionIndex = 0
+let score = 0
