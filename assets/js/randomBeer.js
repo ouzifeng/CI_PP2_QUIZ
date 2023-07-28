@@ -9,16 +9,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Uses a placeholder image in case image from API is null or empty 
     function setPlaceholderImage(imgElement) {
-    const placeholderImageUrl = window.location.origin + '/assets/images/placeholder_beer_image.png';
-    imgElement.src = placeholderImageUrl;
+        const placeholderImageUrl = window.location.origin + '/assets/images/placeholder_beer_image.png';
+        imgElement.src = placeholderImageUrl;
     }
 
     // Displays beer data on landing page 
-     function displayBeerDetails(data) {
+    function displayBeerDetails(data) {
         const name = data[0].name;
         const image_url = data[0].image_url;
-        const description = data[0].description
-        const abv = data[0].abv
+        const description = data[0].description;
+        const abv = data[0].abv;
 
         descriptionDisplay.innerHTML = description;
         titleDisplay.innerHTML = name;
@@ -54,5 +54,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Generates a random beer on page load
     const randomUrl = 'https://api.punkapi.com/v2/beers/random';
     getBeer(randomUrl);
-
 });

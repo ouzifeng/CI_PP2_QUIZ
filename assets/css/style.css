@@ -20,7 +20,7 @@ h3, p {
 .header {
     position: relative;
     height: 400px;
-    background-color: #ff5400;
+    background-color: #4e433e;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -44,12 +44,13 @@ body {
 }
 
 .navbar {
-    background-color: #ff5400 !important;
+    background-color: #4e433e !important;
 }
 
 .navbar a {
     font-family: 'Bangers';
     color: #3498db;
+    font-size: 40px;
 }
 
 .wrapper {

@@ -154,141 +154,95 @@ const questions = [
       { text: 'It has a unique, musky flavor', isCorrect: false }
     ]
   }
-{
-    question: 'Which country is the original producer of Pilsner?',
-    answers: [
-      { text: 'Germany', isCorrect: false },
-      { text: 'United States', isCorrect: false },
-      { text: 'Belgium', isCorrect: false },
-      { text: 'Czech Republic', isCorrect: true }
-    ]
-  },
-  {
-    question: 'What is the world’s strongest beer by ABV?',
-    answers: [
-      { text: 'BrewDog Tactical Nuclear Penguin', isCorrect: false },
-      { text: 'Samuel Adams Utopias', isCorrect: false },
-      { text: 'Snake Venom by Brewmeister', isCorrect: true },
-      { text: 'The End of History by BrewDog', isCorrect: false }
-    ]
-  },
-  {
-    question: 'What is the purpose of yeast in beer brewing?',
-    answers: [
-      { text: 'It adds bitterness to the beer', isCorrect: false },
-      { text: 'It adds color to the beer', isCorrect: false },
-      { text: 'It ferments the sugars, producing alcohol and carbon dioxide', isCorrect: true },
-      { text: 'It sterilizes the beer', isCorrect: false }
-    ]
-  },
-  {
-    question: 'What is the Reinheitsgebot?',
-    answers: [
-      { text: 'A famous beer festival in Germany', isCorrect: false },
-      { text: 'A type of German lager', isCorrect: false },
-      { text: 'The German Beer Purity Law', isCorrect: true },
-      { text: 'A brewing technique', isCorrect: false }
-    ]
-  },
-  {
-    question: 'Which fruit is commonly used in a lambic beer?',
-    answers: [
-      { text: 'Apple', isCorrect: false },
-      { text: 'Cherry', isCorrect: true },
-      { text: 'Orange', isCorrect: false },
-      { text: 'Lemon', isCorrect: false }
-    ]
-  }
-]
+];
 
-// Create variables for the questions, answers and next question button
-const quizArea = document.getElementById('quiz')
-const questionArea = document.getElementById('question')
-const answerArea = document.getElementById('answer')
+// Create variables for the questions, answers, and next question button
+const quizArea = document.getElementById('quiz');
+const questionArea = document.getElementById('question');
+const answerArea = document.getElementById('answer');
 
-// Create variable to store question index and score
-let currentQuestionIndex = 0
-let score = 0
+// Create a variable to store question index and score
+let currentQuestionIndex = 0;
+let score = 0;
 
 // This function starts the quiz
-function startQuiz () {
-  currentQuestionIndex = 0 // starts quiz at first question
-  score = 0 // starts score at 0
-  // calls function showQuestion
-  showQuestion()
+function startQuiz() {
+  currentQuestionIndex = 0; // Starts the quiz at the first question
+  score = 0; // Starts the score at 0
+  showQuestion(); // Calls the function showQuestion
 }
 
 // This function displays the questions
-function showQuestion () {
-  resetQuestions()
-  let currentQuestion = questions[currentQuestionIndex]
-  let questionNo = currentQuestionIndex + 1 // add 1 to the question index so that the next question shows
-  questionArea.innerHTML = questionNo + '. ' + currentQuestion.question // updates the question element with questions
+function showQuestion() {
+  resetQuestions();
+  let currentQuestion = questions[currentQuestionIndex];
+  let questionNo = currentQuestionIndex + 1; // Adds 1 to the question index so that the next question shows
+  questionArea.innerHTML = questionNo + '. ' + currentQuestion.question; // Updates the question element with questions
 
   currentQuestion.answers.forEach(answer => {
-    const button = document.createElement('button')
-    button.innerHTML = answer.text
-    button.classList.add('btn')
-    answerArea.appendChild(button)
+    const button = document.createElement('button');
+    button.innerHTML = answer.text;
+    button.classList.add('btn');
+    answerArea.appendChild(button);
     if (answer.isCorrect) {
-      button.dataset.correct = 'true'
+      button.dataset.correct = 'true';
     }
-    button.addEventListener('click', selectAnswer)
-  })
+    button.addEventListener('click', selectAnswer);
+  });
 
   // Calculate the progress
-  let progress = ((currentQuestionIndex + 1) / questions.length) * 100
+  let progress = ((currentQuestionIndex + 1) / questions.length) * 100;
 
   // Update the progress bar
-  let progressBar = document.querySelector('.progress-bar')
-  progressBar.style.width = progress + '%'
-  progressBar.setAttribute('aria-valuenow', progress)
+  let progressBar = document.querySelector('.progress-bar');
+  progressBar.style.width = progress + '%';
+  progressBar.setAttribute('aria-valuenow', progress);
 }
 
-// This function removes the html Answers 1-4 from the quiz
-function resetQuestions () {
+// This function removes the HTML Answers 1-4 from the quiz
+function resetQuestions() {
   while (answerArea.firstChild) {
-    answerArea.removeChild(answerArea.firstChild)
+    answerArea.removeChild(answerArea.firstChild);
   }
 }
 
 // Display whether answer is correct or not
-function selectAnswer (e) {
-  const selectedBtn = e.target
-  const isCorrect = selectedBtn.dataset.correct === 'true'
+function selectAnswer(e) {
+  const selectedBtn = e.target;
+  const isCorrect = selectedBtn.dataset.correct === 'true';
 
   Array.from(answerArea.children).forEach(button => {
     if (button.dataset.correct === 'true') {
-      button.classList.add('correct')
+      button.classList.add('correct');
     } else if (button === selectedBtn) {
-      button.classList.add('incorrect')
+      button.classList.add('incorrect');
     }
-    button.disabled = true
-  })
+    button.disabled = true;
+  });
 
   if (isCorrect) {
-    score++ // Increment score if the answer is correct
+    score++; // Increment score if the answer is correct
   }
 
   // Update the score display
-  document.getElementById('score').innerHTML = score
+  document.getElementById('score').innerHTML = score;
 
-  // Automatically go to next question after 1 second
+  // Automatically go to the next question after 1 second
   setTimeout(() => {
-    currentQuestionIndex++
+    currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
-      showQuestion()
+      showQuestion();
     } else {
-      showResultForm()
+      showResultForm();
     }
-  }, 1000)
+  }, 1000);
 }
 
-//Show email form when quiz has finished
-function showResultForm () {
-  quizArea.style.display = 'none'
-  document.getElementById('resultForm').style.display = 'block'
+// Show email form when quiz has finished
+function showResultForm() {
+  quizArea.style.display = 'none';
+  document.getElementById('resultForm').style.display = 'block';
 }
 
 // Start the quiz!
-startQuiz()
+startQuiz();
