@@ -64,3 +64,23 @@ function resetQuestions () {
     answerArea.removeChild(answerArea.firstChild)
   }
 }
+
+// Display whether answer is correct or not
+function selectAnswer (e) {
+  // Corrected here
+  const selectedBtn = e.target
+  const isCorrect = selectedBtn.dataset.correct === 'true'
+  if (isCorrect) {
+    selectedBtn.classList.add('correct')
+    score++ // Increment score if the answer is correct
+  } else {
+    selectedBtn.classList.add('incorrect')
+  }
+  Array.from(answerArea.children).forEach(button => {
+    if (button.dataset.correct === 'true') {
+      button.classList.add('correct')
+    }
+    button.disabled = true
+  })
+  nextButton.style.display = 'block'
+}
