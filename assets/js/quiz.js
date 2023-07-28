@@ -97,3 +97,6 @@ function selectAnswer (e) {
 
 // Start the quiz!
 startQuiz()
+
+// Display the initial score as zero
+document.getElementById('score').innerHTML = score
