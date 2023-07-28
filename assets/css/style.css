@@ -29,7 +29,7 @@ h3, p {
 
 .header-content {
     position: absolute;
-    width: 1180px;
+    max-width: 1180px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -207,4 +207,36 @@ span.feeling {
 
 .progress-bar {
   transition: width 0.3s ease-in-out;
+}
+
+
+/* General styles outside of media queries */
+
+/* Styles for screens with a minimum width of 480px */
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+
+    .header-content {
+        width: 100%;
+    }
+
+    .button-76 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+
+    .container-1 {
+        padding: 20px;
+    }
+
+    .beer-img {
+        float: none;
+    }
 }
