@@ -82,6 +82,10 @@ function selectAnswer (e) {
     }
     button.disabled = true
   })
+
+  // Update the score display
+  document.getElementById('score').innerHTML = score
+
   // Automatically go to next question after 1 second
   setTimeout(() => {
     currentQuestionIndex++
