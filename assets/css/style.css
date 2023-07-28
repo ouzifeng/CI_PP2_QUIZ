@@ -69,6 +69,10 @@ body {
     margin-bottom: 60px;
 }
 
+.container-2 {
+    background-color: #f3de2c;
+}
+
 
 .container-1 {
     max-width: 1180px;
@@ -92,7 +96,7 @@ span.feeling {
 }
 
 .quiz-card {
-    background: blue;
+    background: white;
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
@@ -101,9 +105,11 @@ span.feeling {
 }
 
 .quiz-card h1 {
-    font-size: 40px;
+    font-size: 40px !important;
     padding-bottom: 30px;
     border-bottom: 1px solid black;
+    color: black;
+    text-shadow: none;
 }
 
 .quiz {
@@ -195,5 +201,6 @@ span.feeling {
 }
 
 .quiz-button {
-    max-width: 250px
+    max-width: 250px;
+    margin-bottom: 100px;
 }
