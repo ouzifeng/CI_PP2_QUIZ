@@ -168,9 +168,11 @@ let score = 0;
 // This function starts the quiz
 function startQuiz() {
   currentQuestionIndex = 0; // Starts the quiz at the first question
-  score = 0; // Starts the score at 0
+  score = 0; // Starts score at 0
+  document.getElementById('score').innerHTML = score; // Display initial score
   showQuestion(); // Calls the function showQuestion
 }
+
 
 // This function displays the questions
 function showQuestion() {
