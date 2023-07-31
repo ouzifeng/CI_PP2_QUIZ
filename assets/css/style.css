@@ -101,6 +101,7 @@ body#quiz-page {
 .container-1 h2 {
     padding-top: 60px !important;
     text-align: center;
+    color: #2980b9;
 }
 
 .beer-img {
@@ -293,5 +294,10 @@ a.small:hover {
 
     .beer-img {
         float: none;
+    }
+
+    .footer-image {
+        padding: 10px;
+        max-width: 100%;
     }
 }
