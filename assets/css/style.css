@@ -16,10 +16,9 @@ h3, p {
     font-family: 'Nunito', sans-serif;
 }
 
-
 .header {
     position: relative;
-    height: 400px;
+    height: 300px;
     background-color: #4e433e;
     background-repeat: no-repeat;
     background-position: center;
@@ -65,6 +64,10 @@ body#quiz-page {
     font-family: 'Bangers';
     color: #3498db;
     font-size: 40px;
+}
+
+.navbar a:hover {
+    color: white;
 }
 
 .wrapper {
@@ -225,7 +228,38 @@ span.feeling {
 }
 
 
-/* General styles outside of media queries */
+.footer-image {
+    max-width: 800px;
+    display: block;
+    margin: auto;
+}
+
+.main-footer {
+    background-color: #4e433e;
+}
+.fa-brands {
+    color: #2980b9;
+    font-family: "Bangers";
+    font-size: 18px 
+}
+
+.fa-brands:hover {
+    color: white;
+}
+
+.small {
+    color: #2980b9;
+    font-family: "Bangers";
+    font-size: 18px;
+}
+
+a.small {
+    text-decoration: none;
+}
+
+a.small:hover {
+    color: white;
+}
 
 /* Styles for screens with a minimum width of 480px */
 @media only screen and (max-width: 480px) {
