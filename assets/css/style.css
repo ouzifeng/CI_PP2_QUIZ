@@ -19,7 +19,7 @@ h3, p {
 .header {
     position: relative;
     height: 300px;
-    background-color: #4e433e;
+    background-color: #d94806;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -29,7 +29,7 @@ h3, p {
 .header-quiz {
     position: relative;
     height: 200px;
-    background-color: #4e433e;
+    background-color: #d94806;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -57,7 +57,7 @@ body#quiz-page {
 }
 
 .navbar {
-    background-color: #4e433e !important;
+    background-color: #d94806 !important;
 }
 
 .navbar a {
