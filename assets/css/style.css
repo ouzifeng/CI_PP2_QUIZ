@@ -39,7 +39,7 @@ h3, p {
 .header-content {
     position: absolute;
     max-width: 1180px;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -50,6 +50,10 @@ body {
     margin: 0;
     min-height: 100vh;
     
+}
+
+.btn {
+    font-family: 'Nunito', sans-serif;
 }
 
 body#quiz-page {
@@ -114,6 +118,11 @@ span.feeling {
     font-style: italic;
 }
 
+.about {
+    text-align: center;
+    font-size: 18px;
+}
+
 .quiz-card {
     background: white;
     width: 90%;
@@ -126,9 +135,18 @@ span.feeling {
 .quiz-card h1 {
     font-size: 40px !important;
     padding-bottom: 30px;
-    border-bottom: 1px solid black;
-    color: black;
+    color: #3498db;
     text-shadow: none;
+}
+
+.progress-bar {
+    background-color: #3498db;
+}
+
+.score {
+    font-family: 'Bangers', sans-serif;
+    color: #3498db;
+    font-size: 30px;
 }
 
 .quiz {
@@ -190,16 +208,16 @@ span.feeling {
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
-  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  font-size: 1.125rem; /* 18px */
+  font-family: "Banger", sans-serif;
+  font-size: 1.125rem;
   font-weight: 600;
-  line-height: 1.75rem; /* 28px */
+  line-height: 1.75rem;
   padding: 1rem 1.25rem;
   text-align: center;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 50%
+  width: 60%
 }
 
 .button-76:hover {
@@ -209,9 +227,9 @@ span.feeling {
 
 @media (min-width: 1024px) {
   .button-76 {
-    font-size: 1.5rem; /* 24px */
+    font-size: 1.5rem;
     padding: 1rem 1.5rem;
-    line-height: 2rem; /* 32px */
+    line-height: 2rem;
   }
 }
 
