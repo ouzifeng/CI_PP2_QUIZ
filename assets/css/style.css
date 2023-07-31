@@ -61,7 +61,7 @@ body#quiz-page {
 }
 
 .navbar a {
-    font-family: 'Bangers';
+    font-family: 'Bangers', sans-serif;
     color: #3498db;
     font-size: 40px;
 }
@@ -239,8 +239,13 @@ span.feeling {
 }
 .fa-brands {
     color: #2980b9;
-    font-family: "Bangers";
-    font-size: 18px 
+    font-size: 18px;
+}
+
+.social {
+    color: #2980b9;
+    font-family: "Bangers", sans-serif;
+    font-size: 18px;
 }
 
 .fa-brands:hover {
@@ -249,7 +254,7 @@ span.feeling {
 
 .small {
     color: #2980b9;
-    font-family: "Bangers";
+    font-family: "Bangers", sans-serif;
     font-size: 18px;
 }
 
