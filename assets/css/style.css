@@ -239,32 +239,36 @@ span.feeling {
     background-color: #4e433e;
 }
 .fa-brands {
-    color: #2980b9;
+    color: white;
     font-size: 18px;
 }
 
 .social {
-    color: #2980b9;
+    color: white;
     font-family: "Bangers", sans-serif;
     font-size: 18px;
+}
+
+.social:hover {
+    color: #2980b9;
 }
 
 .fa-brands:hover {
-    color: white;
+    color: #2980b9;
 }
 
 .small {
-    color: #2980b9;
+    color: white;
     font-family: "Bangers", sans-serif;
     font-size: 18px;
+}
+
+a.small:hover {
+    color: #2980b9;
 }
 
 a.small {
     text-decoration: none;
-}
-
-a.small:hover {
-    color: white;
 }
 
 /* Styles for screens with a minimum width of 480px */
