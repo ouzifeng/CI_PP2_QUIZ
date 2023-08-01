@@ -288,7 +288,7 @@ a.small {
     text-decoration: none;
 }
 
-/* Styles for screens with a minimum width of 480px */
+/* Mobile Styles */
 @media only screen and (max-width: 480px) {
     h1 {
         font-size: 60px;
@@ -321,4 +321,31 @@ a.small {
         padding: 10px;
         max-width: 100%;
     }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+   .header-content {
+    width: 90%; 
+   }
+
+   .header-content h1 {
+    font-size: 80px;
+   }
+
+   .header {
+    height: 400px;
+   }
+
+   .container {
+    padding: 0 20px;
+   }
+   
+   .button-76 {
+    width: 80%;
+   }
+
+   .footer-image {
+    max-width: 90%;
+   }
 }
