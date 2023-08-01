@@ -348,4 +348,46 @@ a.small {
    .footer-image {
     max-width: 90%;
    }
+
+    .navbar-brand img {
+        height: 60px;
+    }
+}
+
+/* Surface Duo Styles */
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+   .footer-image {
+    max-width: 90%;
+   }
+
+   .header-content {
+    width: 90%;
+    top: 50%;
+   }
+
+   .header-content h1 {
+    font-size: 60px;
+   }
+
+    .header-content h2 {
+    font-size: 40px;
+   }
+
+    .button-76 {
+        display: block;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .quiz-button {
+        margin-bottom: 40px;
+    }
+
+    .quiz-entry {
+        height: 300px;
+    }
+
+    .navbar-brand img {
+        height: 60px;
+    }
 }
