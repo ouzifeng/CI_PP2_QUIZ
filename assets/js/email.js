@@ -1,3 +1,5 @@
+emailjs.init('-KnEtVWAz0V-IAlEz'); 
+
 document
   .getElementById('resultForm')
   .addEventListener('submit', function(event) {
