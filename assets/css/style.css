@@ -57,7 +57,7 @@ body {
 }
 
 body#quiz-page {
-    background: linear-gradient(0deg, hsla(191, 75%, 60%, 1) 0%, hsla(248, 87%, 36%, 1) 100%);*/
+    background: linear-gradient(0deg, hsla(191, 75%, 60%, 1) 0%, hsla(248, 87%, 36%, 1) 100%);
 }
 
 .navbar {
@@ -215,7 +215,6 @@ span.feeling {
   padding: 1rem 1.25rem;
   text-align: center;
   user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
   width: 60%
 }
