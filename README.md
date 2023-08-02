@@ -105,13 +105,12 @@ The scope of this project is to create a challenging quiz for craft beer enthusi
 
 ## User Stories
 
-### New Students
+### New to the brand Brewdog
 
-1. I want to know how to get to the gym, preferrably via an embedded map on the contact page
-2. I want to know how much it will cost me on a monthly or class by class basis, and whether there is a free trial
-3. I want to be able to check the timetable to see when classes are on
-4. I want to see images of the gym and students to get a feel for the place
-5. I want to be able to contact the gym if I have questions
+1. I want to know more about the rnage of beers brewdog sells
+2. I want to know the strenght of the beers brewdog sells
+
+-------------------I GOT HERE DELETE ME--------------------
 
 ### Existing Students
 
