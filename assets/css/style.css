@@ -139,6 +139,39 @@ span.feeling {
     text-shadow: none;
 }
 
+.page-404 {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 200px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.page-404 h1 {
+    font-size: 40px !important;
+    padding-bottom: 30px;
+    color: #3498db;
+    text-shadow: none;
+    text-align: center;
+}
+
+.page-404 h2 {
+    font-size: 20px !important;
+    padding-bottom: 30px;
+    color: #3498db;
+    text-align: center;
+    font-family: 'Bangers', sans-serif;
+}
+
+
+.page-404 img {
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+
 .progress-bar {
     background-color: #3498db;
 }
