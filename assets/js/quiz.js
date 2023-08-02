@@ -246,5 +246,25 @@ function showResultForm() {
   document.getElementById('resultForm').style.display = 'block';
 }
 
+// Shows the quiz instructions and adds a start button
+document.getElementById('start-quiz').addEventListener('click', function() {
+    document.querySelector('.quiz-intro').style.display = 'none';
+    document.querySelector('.quiz-section').style.display = 'block';
+    startQuiz();
+});
+
+//Restarts the quiz when play again button is clicked
+function restartQuiz() {  currentQuestionIndex = 0; // Reset the question index
+  score = 0; // Reset the score
+  document.getElementById('score').innerHTML = score; // Reset the score display
+  document.getElementById('resultForm').style.display = 'none'; // Hide the result form
+  document.getElementById('thanks').style.display = 'none'; // Hide the thanks message
+  quizArea.style.display = 'block'; // Show the quiz area
+  startQuiz(); // Start the quiz
+}
+
+document.getElementById('play-again').addEventListener('click', restartQuiz);
+
+
 // Start the quiz!
 startQuiz();

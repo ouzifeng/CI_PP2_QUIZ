@@ -49,37 +49,52 @@
     </div>
     <!-- Main Content -->
     <div class="quiz-card">
-        <h1>Test Your Knowledge</h1>
-        <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-            </div>
+        <div class="quiz-intro">
+            <h1>Welcome to the Craft Beer Quiz</h1>
+            <p>This quiz will test your craft beer knowledge with a set of 14 craft beer-related questions. You will
+                have the option to give feedback and have your results sent to you at the end of the quiz</p>
+            <button id="start-quiz" class="btn btn-primary">Start Quiz</button>
         </div>
-        <div class="quiz" id="quiz">
-            <h2 id="question">Question Goes Here</h2>
-            <div id="answer">
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 3</button>
-                <button class="btn">Answer 4</button>
+        <div class="quiz-section" style="display: none;">
+            <h1>Test Your Knowledge</h1>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                </div>
             </div>
-        </div>
-        <h3 class="score">Your Score <span id="score" class="score"></span></h3>
-        <form id="resultForm" style="display: none;">
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" class="form-control" id="name" required>
+            <div class="quiz" id="quiz">
+                <h2 id="question">Question Goes Here</h2>
+                <div id="answer">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+            <h3 class="score">Your Score <span id="score" class="score"></span>/14</h3>
+            <form id="resultForm" style="display: none;">
+                <div class="form-group">
+                    <label for="name">Name:*</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:*</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="feedback">Feedback:</label>
+                    <textarea class="form-control" id="feedback" rows="4"
+                        placeholder="Enter your feedback here"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="button" id="play-again" class="btn btn-secondary">Play Again</button>
+            </form>
 
-        <div id="thanks" style="display:none">
-            <p>Thanks for playing, we have emailed you your results!</p>
-        </div>
 
+            <div id="thanks" style="display:none">
+                <p>Thanks for playing, we have emailed you your results!</p>
+            </div>
+
+        </div>
     </div>
 
     <footer class="main-footer py-4 mt-auto">
@@ -107,7 +122,7 @@
     </footer>
 
 
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>

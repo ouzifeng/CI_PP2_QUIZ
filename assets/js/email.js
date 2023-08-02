@@ -7,6 +7,7 @@ document
 
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
+    const feedback = document.getElementById('feedback').value;
 
     // Simple validation
     if (!name || !email) {
@@ -14,8 +15,7 @@ document
       return;
     }
 
-    // You could add more complex validation here, such as checking if the email address is in the correct format
-
+ // Send quiz score to the user
     emailjs
       .send('service_7cwu2tw', 'template_cyk3kf9', {
         from_name: name,
@@ -33,4 +33,24 @@ document
           console.log('FAILED...', error);
         }
       );
+
+  // Send feedback to the developer
+  emailjs
+    .send('service_7cwu2tw', 'template_0g212ac', {
+      from_name: name,
+      from_email: email,
+      subject: 'Quiz Feedback',
+      message: 'Feedback: ' + feedback,
+    })
+    .then(
+      function() {
+        // After both emails are sent, hide the form and show the "thanks" message
+        document.getElementById('resultForm').style.display = 'none';
+        document.getElementById('thanks').style.display = 'block';
+        console.log('Developer feedback email sent SUCCESS!');
+      },
+      function(error) {
+        console.log('Developer feedback email FAILED...', error);
+      }
+    );    
   });

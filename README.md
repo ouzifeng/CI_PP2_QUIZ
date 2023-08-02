@@ -8,8 +8,8 @@
 
 Brewdog is one of the largest craft beer manufacturers in the UK. Their marketing department has been given the task to increase their email userbase, in order to improve the revenue stream atttributed to email marketing. The marketing department has approached me to build an interactive website with a quiz so that the marketing department can capture email addresses of potential customers. A nice to have would also be a searchable library of all the beers Brewdog sells.
 
-![Responsive Image](https://github.com/ouzifeng/bjj-gym/blob/main/docs/responsive-design.png)
-[Live Site](https://ouzifeng.github.io/CI_PP1_BJJ_GYM/)
+![Responsive Image](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/responsive-design.png)
+[Live Site](https://ouzifeng.github.io/CI_PP2_QUIZ/)
 
 ## Table of Content
 
@@ -70,39 +70,38 @@ Brewdog is one of the largest craft beer manufacturers in the UK. Their marketin
 
 ## Project Scope
 
-The scope of this project is to create a challenging quiz for craft beer enthusiasts, and to build an interactive library of Brewdog beers for users to learn more about the wide range of beers Brewdog manufacturers.
+The scope of this project is to create a challenging quiz for craft beer enthusiasts to capture email addresses, and to build an interactive library of Brewdog beers for users to learn more about the wide range of beers Brewdog manufacturers.
 
 ### End User Requirements
 
-* Need to be able to find the gym
-* Need to be able to contact the gym
-* Need to know prices
-* Need to know lesson schedule
+* Learn more about Brewdog's beers
+* Test mny craft beer knowledge
 
 ### Customer Goals
 
-* Find new students
-* Be contactable by email
-* Provide critical information about the gym to customers
-* Promote the business on social media platforms
-* Feel "friendly" and approachable
+* Make website interative
+* Website must be responsive and accessible
+* All customer inputs must be validated for errors, with clear feedback where inputs are incorrect
+* Show off their range of beers in a fun way
+* Capture user email address
+* Include a fun quiz for users
 
 ## User Experience
 
 ### Target Audience
 
-* Potential students who are new to the sport and looking to join a gym for the first time
-* Students who are already training but are looking for a new gym closer to their existing one
-* Parents who want their children to try a new sport
+* Anyone interested in craft beer
+* Those who want to know more about Brewdog's range of beers
 
 ### UX UI
 
 * Responsive design across mobile, tablet and desktop/laptops
-* Easy to navigate and find critical information -> prices and timetable
+* Easy to navigate to and find the quiz
+* Easy to understand the game rules
 * No dead links
-* Placeholder for Facebook and Instagram pages (these are currently not setup)
-* Simple way to contact the gym owner. The owner prefers to communicate through email as they don't have access to take calls during the day
-* Simple design without distracting elements or long blocks of text
+* Links to Brewdog's Facebook and Instagram pages
+* Way to give feedback about the quiz
+* Replay the quiz if I want
 
 ## User Stories
 
