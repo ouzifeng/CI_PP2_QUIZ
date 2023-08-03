@@ -1,5 +1,7 @@
 /* This JS file generates a random beer from the Punk API and displays the results on the landing page. The API's documentation can be found here https://punkapi.com/documentation/v2 */
 
+/*jshint esversion: 6 */
+
 document.addEventListener('DOMContentLoaded', () => {
     const randomMyBeer = document.querySelector(".random-beer");
     const descriptionDisplay = document.querySelector(".beer-description");

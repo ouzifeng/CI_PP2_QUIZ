@@ -37,6 +37,7 @@ Brewdog is one of the largest craft beer manufacturers in the UK. Their marketin
 6. [Testing](#testing)
     1. [HTML validation](#html-validation)
     2. [CSS validation](#css-validation)
+    3. [Javascript Validation](#javascript-validation)
     3. [Accessbility](#accessibility)
     4. [Performance](#performance)
     5. [Performance test on different devices](#performance-test-on-different-devices)
@@ -211,32 +212,24 @@ Tool for HTML Validation - W3C HTML Validation Service
 
 index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fouzifeng.github.io%2FCI_PP2_QUIZ)
 
-1 error due to missing img source. This is because the source is generated over the API and is therefor not a fixed image
-1 warning from an empty heading
+404.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fouzifeng.github.io%2FCI_PP2_QUIZ%2F404.html)
 
-404.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fouzifeng.github.io%2FCI_PP1_BJJ_GYM%2F404.html)
+quiz.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fouzifeng.github.io%2FCI_PP2_QUIZ%2Fquiz.html)
 
-classes.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fouzifeng.github.io%2FCI_PP1_BJJ_GYM%2Fclasses.html)
-
-contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fouzifeng.github.io%2FCI_PP1_BJJ_GYM%2Fcontact.html)
-
-prices.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fouzifeng.github.io%2FCI_PP1_BJJ_GYM%2Fprices.html)
-
-timetable.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fouzifeng.github.io%2FCI_PP1_BJJ_GYM%2Ftimetable.html)
-
+No errors or warnings
 
 ### CSS Validation
 
 Tool for CSS Validation - W3C CSS Validation Service
 
-Full site validation: [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fouzifeng.github.io%2FCI_PP1_BJJ_GYM%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+Full site validation: [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fouzifeng.github.io%2FCI_PP2_QUIZ%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-Results = 25 errors and 491 warnings. 
+No errors or warnings
 
-25 errors are coming from Bootstrap's https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css 
-419 warnings from Bootstraps https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css
+### Javascript Validation
 
-Manually copy and pasting the style.css into the validator results in "Congratulations! No Error Found."
+
+
 
 ### Accessibility
 

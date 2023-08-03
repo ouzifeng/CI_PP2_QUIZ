@@ -1,4 +1,5 @@
 // This JS file is for general JS functionality
+/*jshint esversion: 6 */
 
 document.addEventListener('DOMContentLoaded', () => {
   const feelingBeer = ['HAPPY', 'JOYFUL', 'PLAYFUL'];

@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 emailjs.init('-KnEtVWAz0V-IAlEz'); 
 
 document
