@@ -228,7 +228,30 @@ No errors or warnings
 
 ### Javascript Validation
 
+<details>
+<summary>email.js</summary>
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/email-js-validation.png">
+</details>
 
+<details>
+<summary>main.js</summary>
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/main-js-validation.png">
+</details>
+
+<details>
+<summary>quiz.js</summary>
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/quiz-js-validation.png">
+</details>
+
+<details>
+<summary>randomBeer.js</summary>
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/assets/js/randomBeer.js">
+</details>
+
+<details>
+<summary>searchBeer.js</summary>
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/assets/js/searchBeer.js">
+</details>
 
 
 ### Accessibility
