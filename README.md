@@ -152,51 +152,32 @@ Based on how the othercraft brewer's websites look I went for a vibrant and colo
 
 ![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/website-colours.png)
 
-To keep with this theme, but with a lisght twist the 2 main colours will be baby powder and rich black, coupled with a choice of bolder colours for CTAs
 
 ### Wireframes
 
 <details>
 
 <summary>Home</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/wireframes/Home-Page-Desktop.png">
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/wireframes/Home-Page-Tablet.png">
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/wireframes/Home-Page-Mobile.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/home-desktop.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/home-tablet.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/home-mobile.png">
 
 </details>
 
 <details>
 
-<summary>Timetable</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/wireframes/Timetable-Desktop.png">
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/wireframes/Timetable-Tablet.png">
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/wireframes/Timetable-Mobile.png">
-
-</details>
-
-<details>
-
-<summary>Contact</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/wireframes/Contact-Desktop.png">
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/wireframes/Contact-Tablet.png">
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/wireframes/Contact-Mobile.png">
-
-</details>
-
-<details>
-
-<summary>Classes</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/wireframes/Classes-Desktop.png">
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/wireframes/Classes-Tablet.png">
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/wireframes/Classes-Mobile.png">
+<summary>Quiz</summary>
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/quiz-desktop.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/quiz-tablet.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/quiz-mobile.png">
 
 </details>
 
 <details>
 <summary>404</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/wireframes/404-Desktop.png">
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/wireframes/404-Tablet.png">
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/wireframes/404-Mobile.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/404-desktop.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/404-tablet.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/404-mobile.png">
 
 </details>
 
