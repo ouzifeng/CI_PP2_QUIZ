@@ -209,7 +209,10 @@ Languages
 Tool for HTML Validation - W3C HTML Validation Service
 
 
-index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fouzifeng.github.io%2FCI_PP1_BJJ_GYM%2Findex.html)
+index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fouzifeng.github.io%2FCI_PP2_QUIZ)
+
+1 error due to missing img source. This is because the source is generated over the API and is therefor not a fixed image
+1 warning from an empty heading
 
 404.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fouzifeng.github.io%2FCI_PP1_BJJ_GYM%2F404.html)
 
