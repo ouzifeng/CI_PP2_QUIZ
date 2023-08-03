@@ -228,6 +228,8 @@ No errors or warnings
 
 ### Javascript Validation
 
+All Javascript files tested, no errors.
+
 <details>
 <summary>email.js</summary>
 <img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/email-js-validation.png">
@@ -258,19 +260,18 @@ No errors or warnings
 
 The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met the neccessary accessibility standards.
 
-There are zero errors on all pages
 
-index.html [results](https://wave.webaim.org/report#/https://ouzifeng.github.io/CI_PP1_BJJ_GYM/index.html)
+index.html [results](https://wave.webaim.org/report#/https://ouzifeng.github.io/CI_PP2_QUIZ/)
 
-404.html [results](https://wave.webaim.org/report#/https://ouzifeng.github.io/CI_PP1_BJJ_GYM/404.html)
+Zero errors
 
-classes.html [results](https://wave.webaim.org/report#/https://ouzifeng.github.io/CI_PP1_BJJ_GYM/classes.html)
+404.html [results](https://wave.webaim.org/report#/https://ouzifeng.github.io/CI_PP2_QUIZ/404.html)
 
-contact.html [results](https://wave.webaim.org/report#/https://ouzifeng.github.io/CI_PP1_BJJ_GYM/contact.html)
+Zero errors
 
-prices.html [results](https://wave.webaim.org/report#/https://ouzifeng.github.io/CI_PP1_BJJ_GYM/prices.html)
+quiz.html [results](https://wave.webaim.org/report#/https://ouzifeng.github.io/CI_PP2_QUIZ/quiz.html)
 
-timetable.html [results](https://wave.webaim.org/report#/https://ouzifeng.github.io/CI_PP1_BJJ_GYM/timetable.html)
+Zero errors
 
 ### Performance
 
