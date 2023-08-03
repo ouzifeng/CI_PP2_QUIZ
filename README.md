@@ -22,9 +22,9 @@ Brewdog is one of the largest craft beer manufacturers in the UK. Their marketin
     2. [UX IU](#ux-ui)
 
 3. [User Stories](#user-stories)
-    1. [New Students](#new-students)
-    2. [Existing Students](#existing-students)
-    3. [Parents](#parents)
+    1. [New to the brand Brewdog](#new-to-the-brand-brewdog)
+    2. [First Time Players](#first-time-players)
+    3. [Returning Players](#returning-players)
     4. [Site Owner](#site-owner)
 
 4. [Design](#design)
@@ -107,29 +107,31 @@ The scope of this project is to create a challenging quiz for craft beer enthusi
 
 ### New to the brand Brewdog
 
-1. I want to know more about the rnage of beers brewdog sells
-2. I want to know the strenght of the beers brewdog sells
+1. I want to know more about the range of beers brewdog sells
+2. I want to know the strength of the beers brewdog sells
 
--------------------I GOT HERE DELETE ME--------------------
 
-### Existing Students
+### First time players
 
-6. I want to be able to check the timetable to see when classes are on
-7. I want to see images of myself and/or my classmates training
-8. I want links to social media pages to see any new update of photos
+3. I want to be able to understand the rules of the quiz
+4. I want to know my running score
+5. I want to know how many questions I have left
+6. I want to be able to get in touch with developer to leave feedback
+7. I want to game to be responsive no matter what device is played on.
+8. I want to have my results emailed to me so I can show off to my friends
+9. I want to know feedback has been sent
 
-### Parents
+### Returning Players
 
-9. I want to be able to see children's timetable
-10. I want to be able to see how much children's classes are
-11. I want to see photos of children training to get a feel for the gym
-12. I want to be able to contact the gym if I have questions
+10. I want to be able to restart the quiz
 
 ### Site Owner
 
-13. I want dead links to redirect to a 404 page
-14. I want new and existing students to be able to contact me via email, not phone. Also give an explanation as to why there is no phone number available (I am often busy during the day and cannot takes calls)
-15. I want new and existing students to be able to find timetable and pricing easily
+11. I want the user to easy understand the rules of the quiz
+12. I want a 404 page with a redirect to the homepage
+13. I want the user to see the correct answer if they selected the wrong one
+14. I want to be able to collect the users email address
+15. I want to make sure users are inputing a valid email
 
 
 ## Design
