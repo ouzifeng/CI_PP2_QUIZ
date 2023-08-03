@@ -183,6 +183,12 @@ Based on how the othercraft brewer's websites look I went for a vibrant and colo
 
 ## Technologies & Resources Used
 
+Languages
+
+* Javascript
+* HTML
+* CSS
+
 #### HTML AND CSS
 
 * Balsamiq for wireframe designs 
@@ -193,6 +199,7 @@ Based on how the othercraft brewer's websites look I went for a vibrant and colo
 * Bootsrap V5
 * Microsoft Bing Image Generator (logo)
 * Compressor.io to losslessy reduce image size
+* Favicon.io
 
 
 ## Testing
