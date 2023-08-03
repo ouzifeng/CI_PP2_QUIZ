@@ -307,12 +307,6 @@ All pages scored 100 on best practices and 99-100 on performance
 
 
 
-
-
-
-
-
-
 ### Performance test on different devices
 The website was tested on the following screen sizes and devices:
 - Windows desktop 28inch and 22inch screens
@@ -320,6 +314,7 @@ The website was tested on the following screen sizes and devices:
 - Huawei 8" tablet
 - Apple iPhone 13
 - Google Pixel 7
+- Surface Duo
 
 ### Browser compatibility
 The website was tested onthe following browsers:
