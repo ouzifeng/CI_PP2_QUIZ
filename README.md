@@ -273,6 +273,16 @@ quiz.html [results](https://wave.webaim.org/report#/https://ouzifeng.github.io/C
 
 Zero errors
 
+### Broken Links
+
+Website checked using https://www.deadlinkchecker.com/, no broken links found
+
+<details>
+<summary>Broken Links</summary>
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/broken-links-validation.png">
+</details>
+
+
 ### Performance
 
 Google Lighthouse was used to measure performance of each page
