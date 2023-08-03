@@ -138,22 +138,19 @@ The scope of this project is to create a challenging quiz for craft beer enthusi
 
 ### Fonts
 
-For the font choice we needed something which looked professional but also welcoming and friendly.
-
-* Montserrat for headings
-* Lato for body
+For the font choice we needed something which looked vibrant and welcoming
+* Bangers for headings
+* Nunito for the body text
 
 ### Colour Scheme
 
-Based on how the leading gyms have built their colour schemes:
- * https://rogergracie.com/
- * https://ekbjj.com/ 
- * https://www.bjjlondon.com/
- * https://www.10thplanetjj.com/
+Based on how the othercraft brewer's websites look I went for a vibrant and colourful scheme:
+ * https://beavertownbrewery.co.uk/
+ * https://coldtownbeer.com/
+ * https://twotribes.co.uk/
 
- They are clean with plenty of constrasting colours - namely white with black. 
 
-![](https://github.com/ouzifeng/bjj-gym/blob/main/assets/images/website-colours.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/website-colours.png)
 
 To keep with this theme, but with a lisght twist the 2 main colours will be baby powder and rich black, coupled with a choice of bolder colours for CTAs
 
