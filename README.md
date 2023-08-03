@@ -39,10 +39,11 @@ Brewdog is one of the largest craft beer manufacturers in the UK. Their marketin
     2. [CSS validation](#css-validation)
     3. [Javascript Validation](#javascript-validation)
     3. [Accessbility](#accessibility)
-    4. [Performance](#performance)
-    5. [Performance test on different devices](#performance-test-on-different-devices)
-    6. [Browser compatibility](#browser-compatibility)
-    7. [Testing User Stories](#testing-user-stories)
+    4. [Broken Links](#broken-links)
+    5. [Performance](#performance)
+    6. [Performance test on different devices](#performance-test-on-different-devices)
+    7. [Browser compatibility](#browser-compatibility)
+    8. [Testing User Stories](#testing-user-stories)
 
 7. [Features](#features)
     1. [Structure](#structure)
@@ -287,44 +288,24 @@ Website checked using https://www.deadlinkchecker.com/, no broken links found
 
 Google Lighthouse was used to measure performance of each page
 
-Performance has been impacted main by third party resources, please see known bugs for more information. Performance is throttled by 3rd party libraries namely:
-* Index page - YouTube's JS library required to embed videos
-* All pages - Bootstrap's CSS and JS CDN and Google font's CDN. The option to install Bootstrap files directly into the project was considered, but maintaining upgrades and changes to Bootstrap files would require new packages to be downloaded and installed. Using a CDN was decided the best way to counteract this.
-
-All images are taken using Chrome's built-in Lighthouse tool, measured on mobile. Desktop version yield better results
-
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/validation/render-blocking.png">
-Render-blocking resources impacting page performance
+All pages scored 100 on best practices and 99-100 on performance
 
 <details>
 <summary>Home</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/validation/lighthouse-performance-index.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/index-speed.png">
 </details>
 
 <details>
 <summary>404</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/validation/lighthouse-performance-404.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/404-speed.png">
 </details>
 
 <details>
-<summary>Classes</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/validation/lighthouse-performance-classes.png">
+<summary>Quiz</summary>
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/quiz-speed.png">
 </details>
 
-<details>
-<summary>Contact</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/validation/lighthouse-performance-contact.png">
-</details>
 
-<details>
-<summary>Prices</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/validation/lighthouse-performance-prices.png">
-</details>
-
-<details>
-<summary>Timetable</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/validation/lighthouse-performance-timetable.png">
-</details>
 
 
 
