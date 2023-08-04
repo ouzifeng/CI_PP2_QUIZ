@@ -18,12 +18,12 @@ document
     }
 
  // Send quiz score to the user
-    emailjs
-      .send('service_7cwu2tw', 'template_cyk3kf9', {
-        from_name: name,
-        from_email: email,
-        message: 'Your score: ' + score,
-      })
+  emailjs
+    .send('service_7cwu2tw', 'template_cyk3kf9', {
+      from_name: name,
+      from_email: email,
+      message: 'Your score: ' + score + '/14',
+    })
       .then(
         function() {
           // After the email is sent, hide the form and show the "thanks" message

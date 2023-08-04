@@ -348,108 +348,87 @@ The website was tested onthe following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Pricing Matrix | Visit Prices page | Loads pricing cards | Works as expected |
+| Display ABV on beer info | Load a random beer | Beer loads with ABV highlighted | Works as expected |
 
 
 <details>
-<summary>Pricing Cards</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/prices-feature.png">
+<summary>ABV</summary>
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/abv.png">
 </details>
 
-<details>
-<summary>Free trial</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/free-trial-feature.png">
-</details>
+#### First time players
 
-3. I want to be able to check the timetable to see when classes are on
+3. I want to be able to understand the rules of the quiz
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Timetables | Visit timetable page | Loads adults and children's timetable | Works as expected |
+| Quiz rules | Visit quiz page | Quiz rules are displayed | Works as expected |
 
 <details>
-<summary>Adults Timetable</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/adults-timetable-feature.png">
+<summary>Quiz Rules</summary>
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png">
 </details>
 
-<details>
-<summary>Children's Timetable</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/childrens-timetable-feature.png">
-</details>
-
-4. I want to see images of the gym and students to get a feel for the place
+4. I want to know my running score
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Image carousel | Visit index page | carousel load with 3 images of the gym and students | Works as expected |
-| Youtube video | Visit index page | video of the gym load | Works as expected |
-| Images on classes page | Visit Classes page | 3 sections - our faciilites, adult classes and children's classes should laod with images | Works as expected |
+| Running score | Start quiz | Score is displayed in bottom left hand corner of quiz | Works as expected |
 
 <details>
-<summary>Carousel</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/carousel-feature.png">
+<summary>Running Score</summary>
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/running-score.png">
 </details>
 
-<details>
-<summary>Youtube Video</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/youtube-video.png">
-</details>
 
-5. I want to be able to contact the gym if I have questions
+5. I want to know how many questions I have left
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Contact Form | Visit contact page | Contact form loads | Works as expected |
+| Progress bar on quiz page | Start quiz | Progress bar moves as questions are answered | Works as expected |
 
 <details>
 <summary>Contact Form</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/contact-page.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/progress-bar.png">
 </details>
 
-#### Existing Students
 
-6. I want to be able to check the timetable to see when classes are on
+
+6. I want to be able to get in touch with developer to leave feedback
 
  **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Timetables | Visit timetable page | Loads adults and children's timetable | Works as expected |
+| Feedback form | Finish quiz | Option to leave feedback | Works as expected |
 
 <details>
 <summary>Adults Timetable</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/adults-timetable-feature.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/feedback.png">
 </details>
 
-7. I want to see images of myself and/or my classmates training
+7. I want to game to be responsive no matter what device is played on.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Image carousel | Visit index page | carousel load with 3 images of the gym and students | Works as expected |
-| Youtube video | Visit index page | video of the gym load | Works as expected |
+| Site built to be responsive on all devices | Visit quiz on desktop/laptop/tablet/mobile | Quiz visibile on all devices | Works as expected |
 
 <details>
 <summary>Carousel</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/carousel-feature.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/responsive.png">
 </details>
 
-<details>
-<summary>Youtube Video</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/youtube-video.png">
-</details>
 
-8. I want links to social media pages to see any new update of photos
+8. I want to have my results emailed to me so I can show off to my friends
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Social links in footer | Click FB or IG link in footer | links open up gym FB or IG page | Pages not created yet so href is set to "#" |
+| Submit email form | Finish quiz and input email | Results are emailred to user | Pages not created yet so href is set to "#" |
 
 <details>
 <summary>Social Links</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/social-links-feature.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/results.png">
 </details>
 
-#### Parents
-
-9. I want to be able to see children's timetable
+9. I want to know feedback has been sent
 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -458,10 +437,12 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Children's Timetable</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/childrens-timetable-feature.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png">
 </details>
 
-10. I want to be able to see how much children's classes are
+#### Returning Players
+
+10. I want to be able to restart the quiz
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -469,10 +450,12 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Pricing Cards</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/prices-feature.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png">
 </details>
 
-11. I want to see photos of children training to get a feel for the gym
+#### Site Owner
+
+11. I want the user to easy understand the rules of the quiz
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -480,10 +463,10 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Pricing Cards</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/childrens-classes-feature.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png">
 </details>
 
-12. I want to be able to contact the gym if I have questions
+12. I want the user to easy understand the rules of the quiz
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -491,12 +474,10 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Contact Form</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/contact-page.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png">
 </details>
 
-#### Site Owner
-
-13. I want dead links to redirect to a 404 page
+13. I want the user to see the correct answer if they selected the wrong one
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -504,10 +485,10 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>404 Redirect</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/404-feature.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png">
 </details>
 
-14. I want new and existing students to be able to contact me via email, not phone. Also give an explanation as to why there is no phone number available (I am often busy during the day and cannot takes calls)
+14. I want the user to see the correct answer if they selected the wrong one
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -515,10 +496,10 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Contact Page</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/contact-page.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png">
 </details>
 
-15. I want new and existing students to be able to find timetable and pricing easily
+15. I want the user to see the correct answer if they selected the wrong one
 
  **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -527,13 +508,9 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Navbar</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/navbar-feature.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png">
 </details>
 
-<details>
-<summary>Further Links</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/further-links.png">
-</details>
 
 
 ## Features

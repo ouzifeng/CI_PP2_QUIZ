@@ -14,7 +14,7 @@ const questions = [
       { text: 'A beer that contains crafts', isCorrect: false }
     ]
   },
-  {
+  /*{
     question: 'Which country has the most craft breweries per capita?',
     answers: [
       { text: 'Germany', isCorrect: false },
@@ -155,7 +155,7 @@ const questions = [
       { text: 'It has been brewed with skunk hops', isCorrect: false },
       { text: 'It has a unique, musky flavor', isCorrect: false }
     ]
-  }
+  }*/
 ];
 
 // Create variables for the questions, answers, and next question button
