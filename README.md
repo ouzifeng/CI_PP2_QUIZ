@@ -388,7 +388,7 @@ The website was tested onthe following browsers:
 | Progress bar on quiz page | Start quiz | Progress bar moves as questions are answered | Works as expected |
 
 <details>
-<summary>Contact Form</summary>
+<summary>Progress Bar</summary>
 <img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/progress-bar.png">
 </details>
 
@@ -401,7 +401,7 @@ The website was tested onthe following browsers:
 | Feedback form | Finish quiz | Option to leave feedback | Works as expected |
 
 <details>
-<summary>Adults Timetable</summary>
+<summary>Quiz Feedback</summary>
 <img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/feedback.png">
 </details>
 
@@ -412,7 +412,7 @@ The website was tested onthe following browsers:
 | Site built to be responsive on all devices | Visit quiz on desktop/laptop/tablet/mobile | Quiz visibile on all devices | Works as expected |
 
 <details>
-<summary>Carousel</summary>
+<summary>Responsive Quiz</summary>
 <img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/responsive.png">
 </details>
 
@@ -421,23 +421,22 @@ The website was tested onthe following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Submit email form | Finish quiz and input email | Results are emailred to user | Pages not created yet so href is set to "#" |
+| Submit email form | Finish quiz and input email | Results are emailred to user | Works as expected |
 
 <details>
-<summary>Social Links</summary>
+<summary>Email Results</summary>
 <img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/results.png">
 </details>
 
 9. I want to know feedback has been sent
 
-
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Timetables | Visit timetable page | Loads children's timetable | Works as expected |
+| Notice saying feedback sent | Submit feedback | NOtification says feedback has been sent to developer | Works as expected |
 
 <details>
-<summary>Children's Timetable</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png">
+<summary>Feedback Sent</summary>
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/feedback-dev.png">
 </details>
 
 #### Returning Players
@@ -446,11 +445,11 @@ The website was tested onthe following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Pricing Matrix | Visit Prices page | Loads childrens pricing card | Works as expected |
+| Play again button | Finish quiz | Button to replay appears | Works as expected |
 
 <details>
-<summary>Pricing Cards</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png">
+<summary>Restart Quiz</summary>
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/play-again.png">
 </details>
 
 #### Site Owner
@@ -459,56 +458,56 @@ The website was tested onthe following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Children's classes area | Visit classes page | Loads children's classes area | Works as expected |
+| Quiz rules | Visit quiz page | Quiz rules are displayed | Works as expected |
 
 <details>
-<summary>Pricing Cards</summary>
+<summary>Quiz Rules</summary>
 <img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png">
 </details>
 
-12. I want the user to easy understand the rules of the quiz
+12. I want a 404 page with a redirect to the homepage
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Contact Form | Visit contact page | Contact form loads | Works as expected |
+| 404 page | Visit non-existing URL | 404 page loads | Works as expected |
 
 <details>
-<summary>Contact Form</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png">
+<summary>404 Page</summary>
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/404.png">
 </details>
 
 13. I want the user to see the correct answer if they selected the wrong one
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| 404 page | visit deadlink i.e /deadlink | Redirect to 404 page | Works as expected |
+| Correct answer in green | Chose incorrect answer | Wrong answer highlights in red, the correct answer in green | Works as expected |
 
 <details>
-<summary>404 Redirect</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png">
+<summary>See Correct Answer</summary>
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/wrong-answer.png">
 </details>
 
-14. I want the user to see the correct answer if they selected the wrong one
+14. I want to be able to collect the users email address
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Contact form/explanation a to why no phone number | visit contact page | Contact form and paragraph about containg via email not phone load | Works as expected |
+| Email input at end of quiz | Finished quiz | Form with email input loads | Works as expected |
 
 <details>
-<summary>Contact Page</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png">
+<summary>Collect Email</summary>
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/email.png">
 </details>
 
-15. I want the user to see the correct answer if they selected the wrong one
+15. I want to make sure users are inputing a valid email
 
  **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Navbar | Click Timetable or Pricing in navbar | Sends user to timetable or Prices page | Works as expected |
-| Futher links | Scroll to bottom of index page, click on "View Timetable" | Sends user to timetable page | Works as expected |
+| Email validation | Input a non valid email | Warning on email input | Works as expected |
+
 
 <details>
-<summary>Navbar</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png">
+<summary>Validate Email</summary>
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/email-validation.png">
 </details>
 
 
