@@ -516,14 +516,11 @@ The website was tested onthe following browsers:
 
 ### Structure
 
-The website consists of 6 pages:
+The website consists of 3 pages:
 
-1. Home page -> an overview of the gym, with clear links to other key parts of the site and a clear CTA to join
-2. Classes page -> more information about the gym, the adult classes and the children's classes
-3. Contact page -> clearly laid out contact form and map of the gym's location
-4. Pricing page -> options to view the 3 different pricing tiers
-5. Timetable page -> new and existing sutdents can find out when their next class is
-6. 404 page -> redirects any deadlinks to the 404 page
+1. Home page -> an introduction to Brewdog, a search function for their beers and a link to the quiz
+2. Quiz page -> an interactive quiz about craft beer
+3. 404 page -> redirects any deadlinks to the 404 page
 
 and 11 features:
 
@@ -657,7 +654,7 @@ To deploy the website using GitHub Pages, perform the following steps:
 * Visit the relevant GitHub repository and click on the Settings tab.
 * From the left-side menu, select the Pages option.
 * Choose the source as Branch: master.
-* Upon page refresh, you will observe a banner at the top indicating: "Your site is published at https://ouzifeng.github.io/CI_PP1_BJJ_GYM/"
+* Upon page refresh, you will observe a banner at the top indicating: "Your site is published at https://ouzifeng.github.io/CI_PP2_QUIZ/"
 * If you wish to fork the repository, adhere to these steps:
 
 * Navigate to the desired GitHub repository.
@@ -732,7 +729,8 @@ In order of appearance
 ## Acknowledgements:
 
 
-* My teammates, for always pushing me to train harder
+* My friend Joe, for always pushing me to drink more
+* Sam Mason, for building the Punk API
 * My mentor Mo Shami for challenging me to always do my best work
 
 

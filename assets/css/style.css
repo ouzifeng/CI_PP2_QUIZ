@@ -64,6 +64,14 @@ body#quiz-page {
     background-color: #4e433e !important;
 }
 
+.custom-toggler .navbar-toggler-icon {
+    filter: brightness(10); 
+}
+
+.navbar-toggler {
+    border: solid 1px white;
+} 
+
 .navbar a {
     font-family: 'Bangers', sans-serif;
     color: #3498db;
