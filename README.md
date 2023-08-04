@@ -67,9 +67,6 @@ Brewdog is one of the largest craft beer manufacturers in the UK. Their marketin
 11. [Acknowledgements](#acknowledgements)
 
 
-
-
-
 ## Project Scope
 
 The scope of this project is to create a challenging quiz for craft beer enthusiasts to capture email addresses, and to build an interactive library of Brewdog beers for users to learn more about the wide range of beers Brewdog manufacturers.
@@ -638,14 +635,10 @@ and 11 features:
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
-| Links to social media pages are not live | Gym needs to setup necessary social media pages and provide links/names |
-| The contact form does not work | Build a PHP script to handle sending messages from the website |
-| The contact form is not using required attributes | Add required to  HTML input |
-| Youtube video on index page loads heavy unused JS files, impacting performance | These originate from the Youtube API so we cannot defer them using HTML. Either lazy load the video using JS or use a light embed |
-| GIF on 404 page is 1mb and impacts performance | Convert the GIF to video, serve the GIF via a CDN, implement lazy loading or change to a static image |
-| Photos are not being served using next gen format | Convert .jpg and .png images to .webp |
-| Images are not being cached | Serve static assets with an efficient cache policy |
-| Bootstrap, FontAwesome and Google Fonts require JS and CSS files that impact performance | Load the scripts using async, or defer attribute to avoid blocking document parsing |
+| The fetchBeer API does not always have an image | Using a placeholder beer image |
+| The HTML does not validate when using an empty IMG src, due to the imagebeing loaded from the API | Added a loading image as a placeholder |
+| HTML does not validate with a blank beer title, due to the title being loaded from the API | Added a "fetching beer title" placeholder text |
+
 
 ## Deployment
 
@@ -680,51 +673,25 @@ In order of appearance:
 
 | **File Name** | **Link** |
 | ----------- | ----------- |
-| slider.webp | https://carlsongraciebjjsurrey.com/ |
-| slider1.webp | https://carlsongraciebjjsurrey.com/ |
-| slider2.webp | https://carlsongraciebjjsurrey.com/ |
-| free-trial.webp | https://www.istockphoto.com/ |
-| adults-class.webp | https://carlsongraciebjjsurrey.com/ |
-| childrens-class.webp | https://carlsongraciebjjsurrey.com/ |
-| bjj-timetable.webp | https://www.istockphoto.com/ |
+| brew-dog-beers.png | https://www.brewdog.com/uk |
+| placeholder-beer-image.png | https://www.brewdog.com/uk |
 
 #### 404:
 
 | **File Name** | **Link** |
 | ----------- | ----------- |
-| 404.webp | https://www.istockphoto.com/ |
+| placeholder-beer-image.png | https://www.brewdog.com/uk |
 
-#### Classes:
-
-| **File Name** | **Link** |
-| ----------- | ----------- |
-| bjj-mats.webp | https://www.istockphoto.com/ |
-| bjj-gym.webp | https://www.istockphoto.com/ |
-| adults-class-1.webp | https://carlsongraciebjjsurrey.com/ |
-| adults-class-2.webp | https://carlsongraciebjjsurrey.com/ |
-| adults-class-3.webp | https://carlsongraciebjjsurrey.com/ |
-| childrens-classes-1.webp | https://carlsongraciebjjsurrey.com/ |
-| childrens-classes-2.webp | https://carlsongraciebjjsurrey.com/ |
-
-#### Prices:
-
-| **File Name** | **Link** |
-| ----------- | ----------- |
-| pricing-bjj.webp | https://www.istockphoto.com/ |
-
-### Video
-
-| **Video** | **Link** |
-| ----------- | ----------- |
-| Index page - YouTube video | Carlson Gracie Surrey BJJ Youtube Page/ |
 
 ### Code
 
 In order of appearance
 
 * The responsive navbar was built using <a href="https://getbootstrap.com/docs/5.3/components/navbar/" target="_blank">Boostrap V.5.3 Navbar components</a>
-* The image carousel was built using <a href="https://getbootstrap.com/docs/5.3/components/carousel/" target="_blank">Boostrap V.5.3 Carousel components</a>
-* 404 page was build using description on <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site" target="_blank">GitHub Docs</a>
+* The quiz was built using a tutorial on YouTube https://www.youtube.com/watch?v=PBcqGxrr9g8&ab_channel=GreatStack
+* The Beer API was taken from https://punkapi.com/
+* The random beer and test me button styling was taken from https://getcssscan.com/css-buttons-examples
+
 
 ## Acknowledgements:
 
