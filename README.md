@@ -343,12 +343,13 @@ The website was tested onthe following browsers:
 <img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/search-beer.png">
 </details>
 
-2. I want to know how much it will cost me on a monthly or class by class basis, and whether there is a free trial
+2. I want to know the strength of the beers brewdog sells
+
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Pricing Matrix | Visit Prices page | Loads pricing cards | Works as expected |
-| CTA card | Visit Index or Timetable page | Has free trial CTA | Works as expected |
+
 
 <details>
 <summary>Pricing Cards</summary>

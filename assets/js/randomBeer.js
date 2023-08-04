@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         descriptionDisplay.innerHTML = description;
         titleDisplay.innerHTML = name;
-        abvDisplay.innerHTML = abv + "%" + "ABV";
+        abvDisplay.innerHTML = abv + "%" + " " + "ABV"
 
         // Check if image_url is not null and not empty
         if (image_url && image_url.trim() !== '') {
