@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Uses a placeholder image in case image from API is null or empty
   function setPlaceholderImage(imgElement) {
-    const placeholderImageUrl = window.location.origin + '/assets/images/placeholder_beer_image.png';
+    const placeholderImageUrl = 'https://i.ibb.co/vk0zNTM/placeholder-beer-image.png';
     imgElement.src = placeholderImageUrl;
   }
 
