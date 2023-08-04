@@ -191,7 +191,7 @@ Languages
 * HTML
 * CSS
 
-#### HTML AND CSS
+#### Frameworks, Libraries & Tools
 
 * Balsamiq for wireframe designs 
 * Google Fonts for fonts
@@ -202,7 +202,10 @@ Languages
 * Microsoft Bing Image Generator (logo)
 * Compressor.io to losslessy reduce image size
 * Favicon.io
-
+* Am I Responsive
+* Font Awesome
+* Git and Github
+* WC3 Validator, Jigsaw W3 Validator, JShint, Wave Validator, Lighthouse
 
 ## Testing
 
@@ -324,18 +327,20 @@ The website was tested onthe following browsers:
 
 ### Testing User Stories
 
-#### New Students
+#### New to the brand Brewdog
 
-1. I want to know how to get to the gym, preferrably via an embedded map on the contact page
+1. I want to know more about the range of beers brewdog sells
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Map | Visit contact page | Loads a Google map of the gym and has the address in text format | Works as expected |
-| Footer/Header | Click on "contact" link in header or footer | Takes user to contact page where address is | Works as expected |
+| Random Beer | Random Brewdog beer appears on homepage | Beer with name, image and information loads | Works as expected |
+| Search beer | Search for a beer on homepage | Input "alpha" to find Alpha Dog beer | Works as expected
+
 
 <details>
-<summary>Find Map</summary>
-<img src="https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/map.png">
+<summary>Random & Search Beer</summary>
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/random-beer.png">
+<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/search-beer.png">
 </details>
 
 2. I want to know how much it will cost me on a monthly or class by class basis, and whether there is a free trial
