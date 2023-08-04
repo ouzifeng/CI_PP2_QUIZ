@@ -114,6 +114,11 @@ body#quiz-page {
     float: right;
 }
 
+.beer-abv {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 span.feeling {
     font-style: italic;
 }
