@@ -18,8 +18,7 @@ document
     }
 
  // Send quiz score to the user
-  emailjs
-    .send('service_7cwu2tw', 'template_cyk3kf9', {
+  emailjs.send('service_7cwu2tw', 'template_cyk3kf9', {
       from_name: name,
       from_email: email,
       message: 'Your score: ' + score + '/14',
@@ -37,8 +36,7 @@ document
       );
 
   // Send feedback to the developer
-  emailjs
-    .send('service_7cwu2tw', 'template_0g212ac', {
+  emailjs.send('service_7cwu2tw', 'template_0g212ac', {
       from_name: name,
       from_email: email,
       subject: 'Quiz Feedback',
@@ -49,10 +47,10 @@ document
         // After both emails are sent, hide the form and show the "thanks" message
         document.getElementById('resultForm').style.display = 'none';
         document.getElementById('thanks').style.display = 'block';
-        console.log('Developer feedback email sent SUCCESS!');
+        console.log('Developer feedback email sent!');
       },
       function(error) {
-        console.log('Developer feedback email FAILED...', error);
+        console.log('Developer feedback email failed...', error);
       }
     );    
   });

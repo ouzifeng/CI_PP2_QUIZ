@@ -1,5 +1,4 @@
 /*jshint esversion: 6 */
-
 // Create questions
 const questions = [
   {
@@ -169,10 +168,10 @@ let score = 0;
 
 // This function starts the quiz
 function startQuiz() {
-  currentQuestionIndex = 0; // Starts the quiz at the first question
-  score = 0; // Starts score at 0
-  document.getElementById('score').innerHTML = score; // Display initial score
-  showQuestion(); // Calls the function showQuestion
+  currentQuestionIndex = 0; 
+  score = 0; 
+  document.getElementById('score').innerHTML = score; 
+  showQuestion(); 
 }
 
 
@@ -180,8 +179,8 @@ function startQuiz() {
 function showQuestion() {
   resetQuestions();
   let currentQuestion = questions[currentQuestionIndex];
-  let questionNo = currentQuestionIndex + 1; // Adds 1 to the question index so that the next question shows
-  questionArea.innerHTML = questionNo + '. ' + currentQuestion.question; // Updates the question element with questions
+  let questionNo = currentQuestionIndex + 1; 
+  questionArea.innerHTML = questionNo + '. ' + currentQuestion.question; 
 
   currentQuestion.answers.forEach(answer => {
     const button = document.createElement('button');
@@ -225,7 +224,7 @@ function selectAnswer(e) {
   });
 
   if (isCorrect) {
-    score++; // Increment score if the answer is correct
+    score++; 
   }
 
   // Update the score display
@@ -256,17 +255,17 @@ document.getElementById('start-quiz').addEventListener('click', function() {
 });
 
 //Restarts the quiz when play again button is clicked
-function restartQuiz() {  currentQuestionIndex = 0; // Reset the question index
-  score = 0; // Reset the score
-  document.getElementById('score').innerHTML = score; // Reset the score display
-  document.getElementById('resultForm').style.display = 'none'; // Hide the result form
-  document.getElementById('thanks').style.display = 'none'; // Hide the thanks message
-  quizArea.style.display = 'block'; // Show the quiz area
-  startQuiz(); // Start the quiz
+function restartQuiz() {  currentQuestionIndex = 0; 
+  score = 0; 
+  document.getElementById('score').innerHTML = score; 
+  document.getElementById('resultForm').style.display = 'none'; 
+  document.getElementById('thanks').style.display = 'none'; 
+  quizArea.style.display = 'block'; 
+  startQuiz(); 
 }
 
 document.getElementById('play-again').addEventListener('click', restartQuiz);
 
 
-// Start the quiz!
+// Starts the quiz!
 startQuiz();
