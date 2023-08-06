@@ -29,7 +29,7 @@ document
           // After the email is sent, hide the form and show the "thanks" message
           document.getElementById('resultForm').style.display = 'none';
           document.getElementById('thanks').style.display = 'block';
-          console.log('SUCCESS!');
+          console.log('Email sent, thanks for playing');
         },
         function(error) {
           console.log('FAILED...', error);

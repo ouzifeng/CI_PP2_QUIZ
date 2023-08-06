@@ -99,18 +99,13 @@ body#quiz-page {
     margin-bottom: 60px;
 }
 
-.container-2 {
-    background-color: #f3de2c;
-}
-
-
-.container-1 {
+.quiz-container {
     max-width: 1180px;
     margin: auto;
     text-align: center;
 }
 
-.container-1 h2 {
+.quiz-container h2 {
     padding-top: 60px !important;
     text-align: center;
     color: #2980b9;
