@@ -519,51 +519,40 @@ The website consists of 3 pages:
 2. Quiz page -> an interactive quiz about craft beer
 3. 404 page -> redirects any deadlinks to the 404 page
 
-and 11 features:
+and XXX features:
 
-### Logo and Navigation Bar
+### Random Beer Button
 
-* Featured on all pages
-* Simple layout with minimal number of options for easy navigation
-* Fully responsive on desktops, laptops, tablets and mobiles. On mobile the links are displayed as a hamburger menu. Active links are highlighted in a different colour
-* User story no. 15
-
-#### Desktop Version
-![](https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/navbar-feature.png)
-
-#### Mobile Version
-![](https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/navbar-mobile-feature.png)
+* Generates a random beer with the title, description and ABV to allow suers to discover beers they had not heard of from Brewdog
+* User story 1, 2
 
 
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/random-beer.png)
 
-### Carousel
 
-* Shows image of the club and its students
-* Has clear CTA embedded to sign up for the free trial
+### Search Beer Function
+
+* Shows users information about beers they already know
 * User stories no. 4, 7 
 
-#### Carousel image (1 of 3)
-![](https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/carousel-feature.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/search-beer.png)
 
 
-### Video
+### Quiz Rules
 
-* Found on landing page directly under carousel
-* Gives a more indeoth intorduction to the gym vs images
-* User stories 4, 7
+* Explains to the user the rules of the game
+* Tells the user how many questions to expect
+* User story  3, 5, 11
 
-#### Embedded Video
-![](https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/feature-video.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/quiz-rules.png)
 
-### Map
+### Running Score and Progress Bar
 
-* Interactive map via a Google maps embed
-* Allows viewing of larger map
-* Has address written underneath
-* User story 1
+* Tells the user how what their score is as the progress through the game
+* Progress bar shows the user how far into the quiz they are
+* User stories 4, 5 
 
-#### Embedded Map
-![](https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/local-map-feature.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/score-prpgress.png)
 
 ### Pricing and Free Trial
 
@@ -572,11 +561,8 @@ and 11 features:
 * Free trial CTA clearly states 1 week free without any obligations
 * User stories 2, 10, 15
 
-#### Pricing Cards
-![](https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/prices-feature.png)
 
-#### Free Trial CTA
-![](https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/free-trial-feature.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/)
 
 
 ### Timetables
@@ -586,11 +572,8 @@ and 11 features:
 * Additional information included, for example what to bring
 * User stories 3, 6 , 9, 15
 
-#### Adult Timetable
-![](https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/adults-timetable-feature.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/)
 
-#### Children's Timetable
-![](https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/childrens-timetable-feature.png)
 
 ### Contact Form
 
@@ -599,8 +582,8 @@ and 11 features:
 * Includes message about free trial
 * User story 5, 12, 14
 
-#### Contact Form
-![](https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/contact-form-feature.png)
+
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/)
 
 ### Social Links
 
@@ -609,8 +592,7 @@ and 11 features:
 * In footer of every page
 * User story 8
 
-#### Social Links
-![](https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/social-links-feature.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/)
 
 ### Children's Classes 
 
@@ -619,16 +601,14 @@ and 11 features:
 * There is an instructor nearby coaching them and keeping them safe
 * User story 11
 
-#### Children's Classes
-![](https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/childrens-classes-feature.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/)
 
 ### 404 Page
 
 * Any dead links will redirect to 404 page
 * 404 page has a link to take users back to the index page
 
-#### 404 Page
-![](https://github.com/ouzifeng/bjj-gym/blob/main/docs/features/404-feature.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/)
 
 
 ## Bugs
