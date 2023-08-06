@@ -552,63 +552,54 @@ and XXX features:
 * Progress bar shows the user how far into the quiz they are
 * User stories 4, 5 
 
-![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/score-prpgress.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/score-progress.png)
 
-### Pricing and Free Trial
+### Display correct answer
 
-* Clearly shows pricing tier for adults, children and one off visits
-* Links to contact form if user has more questions
-* Free trial CTA clearly states 1 week free without any obligations
-* User stories 2, 10, 15
+* If a user selects an incorrect answer, their answer will be highlighted in red. The correct answer willbe highlighted in green
+* User story 13
 
 
-![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/wrong-answer.png)
 
 
-### Timetables
+### Feedback form
 
-* Separate timetables for adults and children's classes
-* Timetables scroll on mobile for a better user experience
-* Additional information included, for example what to bring
-* User stories 3, 6 , 9, 15
+* Allows users to give feedback to the developer about the quiz
+* User story 6
 
-![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/feedback.png)
 
 
-### Contact Form
+### PLay again button
 
-* Does not require user to input too many personal details, just name and number
-* Checkbox to agree to have the users personal details processed
-* Includes message about free trial
-* User story 5, 12, 14
+* Allows users to play the game again in the hope of improving their score before submitting their email
+* User story 10
 
 
-![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/play-again.png)
 
-### Social Links
+### Form Validation
 
-* Facebook and Instagram link
-* Links set to open up in new tab
-* In footer of every page
-* User story 8
+* Users must input characters into the name field
+* They must use a valid email address. It looks for an @ symbol
+* User story 14, 15
 
-![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/name-validation.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/email-validation.png)
 
-### Children's Classes 
+### Feedback
 
-* Set of photos showing children training at the club
-* Children look happy and enjoyign the lesson
-* There is an instructor nearby coaching them and keeping them safe
-* User story 11
+* Instructions telling user that feedback has been sent
+* Final scores sent to user
+* Feedback email sent to developer
+* User story 8, 9, 6
 
-![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/final-instructions.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/score-email.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/quiz-feedback.png)
 
-### 404 Page
 
-* Any dead links will redirect to 404 page
-* 404 page has a link to take users back to the index page
-
-![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/)
 
 
 ## Bugs
