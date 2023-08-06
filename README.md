@@ -157,26 +157,26 @@ Based on how the othercraft brewer's websites look I went for a vibrant and colo
 <details>
 
 <summary>Home</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/home-desktop.png">
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/home-tablet.png">
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/home-mobile.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/home-desktop.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/home-tablet.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/home-mobile.png)
 
 </details>
 
 <details>
 
 <summary>Quiz</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/quiz-desktop.png">
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/quiz-tablet.png">
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/quiz-mobile.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/quiz-desktop.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/quiz-tablet.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/quiz-mobile.png)
 
 </details>
 
 <details>
 <summary>404</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/404-desktop.png">
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/404-tablet.png">
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/404-mobile.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/404-desktop.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/404-tablet.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/404-mobile.png)
 
 </details>
 
@@ -233,27 +233,27 @@ All Javascript files tested, no errors.
 
 <details>
 <summary>email.js</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/email-js-validation.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/email-js-validation.png)
 </details>
 
 <details>
 <summary>main.js</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/main-js-validation.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/main-js-validation.png)
 </details>
 
 <details>
 <summary>quiz.js</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/quiz-js-validation.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/quiz-js-validation.png)
 </details>
 
 <details>
 <summary>randomBeer.js</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/assets/js/randomBeer.js">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/assets/js/randomBeer.js)
 </details>
 
 <details>
 <summary>searchBeer.js</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/assets/js/searchBeer.js">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/assets/js/searchBeer.js)
 </details>
 
 
@@ -280,7 +280,7 @@ Website checked using https://www.deadlinkchecker.com/, no broken links found
 
 <details>
 <summary>Broken Links</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/broken-links-validation.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/broken-links-validation.png)
 </details>
 
 
@@ -292,17 +292,17 @@ All pages scored 100 on best practices and 99-100 on performance
 
 <details>
 <summary>Home</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/index-speed.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/index-speed.png)
 </details>
 
 <details>
 <summary>404</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/404-speed.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/404-speed.png)
 </details>
 
 <details>
 <summary>Quiz</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/quiz-speed.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/validation/quiz-speed.png)
 </details>
 
 
@@ -336,8 +336,8 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Random & Search Beer</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/random-beer.png">
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/search-beer.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/random-beer.png)
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/search-beer.png)
 </details>
 
 2. I want to know the strength of the beers brewdog sells
@@ -350,7 +350,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>ABV</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/abv.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/abv.png)
 </details>
 
 #### First time players
@@ -363,7 +363,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Quiz Rules</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png)
 </details>
 
 4. I want to know my running score
@@ -374,7 +374,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Running Score</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/running-score.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/running-score.png)
 </details>
 
 
@@ -386,7 +386,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Progress Bar</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/progress-bar.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/progress-bar.png)
 </details>
 
 
@@ -399,7 +399,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Quiz Feedback</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/feedback.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/feedback.png)
 </details>
 
 7. I want to game to be responsive no matter what device is played on.
@@ -410,7 +410,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Responsive Quiz</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/responsive.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/responsive.png)
 </details>
 
 
@@ -422,7 +422,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Email Results</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/results.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/results.png)
 </details>
 
 9. I want to know feedback has been sent
@@ -433,7 +433,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Feedback Sent</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/feedback-dev.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/feedback-dev.png)
 </details>
 
 #### Returning Players
@@ -446,7 +446,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Restart Quiz</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/play-again.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/play-again.png)
 </details>
 
 #### Site Owner
@@ -459,7 +459,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Quiz Rules</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/quiz-rules.png)
 </details>
 
 12. I want a 404 page with a redirect to the homepage
@@ -470,7 +470,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>404 Page</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/404.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/404.png)
 </details>
 
 13. I want the user to see the correct answer if they selected the wrong one
@@ -481,7 +481,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>See Correct Answer</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/wrong-answer.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/wrong-answer.png)
 </details>
 
 14. I want to be able to collect the users email address
@@ -492,7 +492,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Collect Email</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/email.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/email.png)
 </details>
 
 15. I want to make sure users are inputing a valid email
@@ -504,7 +504,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Validate Email</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/email-validation.png">
+![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/user-stories/email-validation.png)
 </details>
 
 
@@ -519,7 +519,7 @@ The website consists of 3 pages:
 2. Quiz page -> an interactive quiz about craft beer
 3. 404 page -> redirects any deadlinks to the 404 page
 
-and XXX features:
+and 10 features:
 
 ### Random Beer Button
 
