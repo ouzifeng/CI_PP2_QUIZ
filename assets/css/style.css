@@ -130,6 +130,18 @@ span.feeling {
     font-size: 18px;
 }
 
+.quiz-section {
+    display: none;
+}
+
+.resultForm {
+    display: none;
+}
+
+.thanks {
+    display: none;
+}
+
 .quiz-card {
     background: white;
     width: 90%;
