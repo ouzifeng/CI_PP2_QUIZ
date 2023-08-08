@@ -249,6 +249,7 @@ span.feeling {
     background: red !important;
 }
 
+/* External source used for button 76 design -  https://getcssscan.com/css-buttons-examples */
 .button-76 {
   background-color: #cf245f;
   background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
@@ -268,9 +269,12 @@ span.feeling {
   width: 60%
 }
 
+/* Hover action is custom and not taken from  https://getcssscan.com/css-buttons-examples*/
 .button-76:hover {
   box-shadow: none;
-  color: #fff;
+  background-color: #fff !important;
+  background-image: none;
+  border: 1px solid black;
 }
 
 .quiz-entry {
