@@ -157,7 +157,7 @@ Based on how the othercraft brewer's websites look I went for a vibrant and colo
 <details>
 
 <summary>Home</summary>
-![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/home-desktop.png)
+<img src="docs/wireframes/home-desktop.png">
 ![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/home-tablet.png)
 ![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/wireframes/home-mobile.png)
 
