@@ -415,11 +415,11 @@ The website was tested onthe following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Submit email form | Finish quiz and input email | Results are emailred to user | Works as expected |
+| Submit email form | Finish quiz and input email | Results are emailed to user | Works as expected |
 
 <details>
 <summary>Email Results</summary>
-<img src="/docs/user-stories/results.png" alt="Email Results">
+<img src="/docs/user-stories/score-emailed.png" alt="Email Results">
 </details>
 
 9. I want to know feedback has been sent
@@ -489,8 +489,8 @@ The website was tested onthe following browsers:
 | Email input at end of quiz | Finished quiz | Form with email input loads | Works as expected |
 
 <details>
-<summary>See Correct Answer</summary>
-<img src="/docs/user-stories/wrong-answer.png" alt="See Correct Answer">
+<summary>Collect Email Address</summary>
+<img src="/docs/user-stories/email.png" alt="Collect Email Address">
 </details>
 
 15. I want to make sure users are inputing a valid email
