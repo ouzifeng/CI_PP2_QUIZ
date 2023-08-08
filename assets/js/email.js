@@ -1,4 +1,5 @@
 /*jshint esversion: 6 */
+/*global emailjs, score */
 
 emailjs.init('-KnEtVWAz0V-IAlEz'); 
 
