@@ -47,16 +47,15 @@ Brewdog is one of the largest craft beer manufacturers in the UK. Their marketin
 
 7. [Features](#features)
     1. [Structure](#structure)
-    2. [Logo and Navigation Bar](#logo-and-navigation-bar)
-    3. [Carousel](#carousel)
-    4. [Video](#video)
-    5. [Map](#map)
-    6. [Pricing and Free Trial](#pricing-and-free-trial)
-    7. [Timetables](#timetables)
-    8. [Contact Form](#contact-form)
-    9. [Social Links](#social-links)
-    10. [Children's Classes](#childrens-classes)
-    11. [404 Page](#404-page)
+    2. [Random Beer Button](#random-beer-button)
+    3. [Search Beer Function](#search-beer-function)
+    4. [Quiz Rules](#quiz-rules)
+    5. [Running Score and Progress Bar](#running-score-and-progress-bar)
+    6. [Display correct answer](#display=correct-answer)
+    7. [Feedback form](#feedback-form)
+    8. [Play Again Button](#play-again-button)
+    9. [Form Validation](#form-validation)
+    10. [Feedback](#feedback)
 
 8. [Bugs](#bugs)
 
@@ -149,7 +148,7 @@ Based on how the othercraft brewer's websites look I went for a vibrant and colo
  * https://twotribes.co.uk/
 
 
-![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/website-colours.png)
+![](docs/website-colours.png)
 
 
 ### Wireframes
@@ -332,8 +331,8 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Random & Search Beer</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/raw/main/docs/user-stories/random-beer.png" alt="Random Beer">
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/raw/main/docs/user-stories/search-beer.png" alt="Search Beer">
+<img src="/docs/user-stories/random-beer.png" alt="Random Beer">
+<img src="/docs/user-stories/search-beer.png" alt="Search Beer">
 </details>
 
 
@@ -347,7 +346,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>ABV</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/raw/main/docs/user-stories/abv.png" alt="ABV">
+<img src="/docs/user-stories/abv.png" alt="ABV">
 </details>
 
 #### First time players
@@ -360,7 +359,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Quiz Rules</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/raw/main/docs/user-stories/quiz-rules.png" alt="Quiz Rules">
+<img src="/docs/user-stories/quiz-rules.png" alt="Quiz Rules">
 </details>
 
 4. I want to know my running score
@@ -371,7 +370,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Running Score</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/raw/main/docs/user-stories/running-score.png" alt="Running Score">
+<img src="/docs/user-stories/running-score.png" alt="Running Score">
 </details>
 
 
@@ -383,7 +382,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Progress Bar</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/raw/main/docs/user-stories/progress-bar.png" alt="Progress Bar">
+<img src="/docs/user-stories/progress-bar.png" alt="Progress Bar">
 </details>
 
 
@@ -397,7 +396,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Quiz Feedback</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/raw/main/docs/user-stories/feedback.png" alt="Quiz Feedback">
+<img src="/docs/user-stories/feedback.png" alt="Quiz Feedback">
 </details>
 
 7. I want to game to be responsive no matter what device is played on.
@@ -408,7 +407,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Responsive Quiz</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/raw/main/docs/user-stories/responsive.png" alt="Responsive Quiz">
+<img src="/docs/user-stories/responsive.png" alt="Responsive Quiz">
 </details>
 
 
@@ -420,7 +419,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Email Results</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/raw/main/docs/user-stories/results.png" alt="Email Results">
+<img src="/docs/user-stories/results.png" alt="Email Results">
 </details>
 
 9. I want to know feedback has been sent
@@ -431,7 +430,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Feedback Sent</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/raw/main/docs/user-stories/feedback-dev.png" alt="Feedback Sent">
+<img src="/docs/user-stories/feedback-dev.png" alt="Feedback Sent">
 </details>
 
 
@@ -445,7 +444,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Restart Quiz</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/raw/main/docs/user-stories/play-again.png" alt="Restart Quiz">
+<img src="/docs/user-stories/play-again.png" alt="Restart Quiz">
 </details>
 
 #### Site Owner
@@ -458,7 +457,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Quiz Rules</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/raw/main/docs/user-stories/quiz-rules.png" alt="Quiz Rules">
+<img src="/docs/user-stories/quiz-rules.png" alt="Quiz Rules">
 </details>
 
 12. I want a 404 page with a redirect to the homepage
@@ -469,7 +468,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>404 Page</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/raw/main/docs/user-stories/404.png" alt="404 Page">
+<img src="/docs/user-stories/404.png" alt="404 Page">
 </details>
 
 13. I want the user to see the correct answer if they selected the wrong one
@@ -480,7 +479,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>See Correct Answer</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/raw/main/docs/user-stories/wrong-answer.png" alt="See Correct Answer">
+<img src="/docs/user-stories/wrong-answer.png" alt="See Correct Answer">
 </details>
 
 14. I want to be able to collect the users email address
@@ -491,7 +490,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>See Correct Answer</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/raw/main/docs/user-stories/wrong-answer.png" alt="See Correct Answer">
+<img src="/docs/user-stories/wrong-answer.png" alt="See Correct Answer">
 </details>
 
 15. I want to make sure users are inputing a valid email
@@ -503,7 +502,7 @@ The website was tested onthe following browsers:
 
 <details>
 <summary>Validate Email</summary>
-<img src="https://github.com/ouzifeng/CI_PP2_QUIZ/raw/main/docs/user-stories/email-validation.png" alt="Validate Email">
+<img src="/docs/user-stories/email-validation.png" alt="Validate Email">
 </details>
 
 
@@ -526,7 +525,7 @@ and 10 features:
 * User story 1, 2
 
 
-![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/random-beer.png)
+![](docs/features/random-beer.png)
 
 
 ### Search Beer Function
@@ -534,7 +533,7 @@ and 10 features:
 * Shows users information about beers they already know
 * User stories no. 4, 7 
 
-![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/search-beer.png)
+![](docs/features/search-beer.png)
 
 
 ### Quiz Rules
@@ -543,7 +542,7 @@ and 10 features:
 * Tells the user how many questions to expect
 * User story  3, 5, 11
 
-![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/quiz-rules.png)
+![](docs/features/quiz-rules.png)
 
 ### Running Score and Progress Bar
 
@@ -551,7 +550,7 @@ and 10 features:
 * Progress bar shows the user how far into the quiz they are
 * User stories 4, 5 
 
-![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/score-progress.png)
+![](docs/features/score-progress.png)
 
 ### Display correct answer
 
@@ -559,7 +558,7 @@ and 10 features:
 * User story 13
 
 
-![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/wrong-answer.png)
+![](docs/features/wrong-answer.png)
 
 
 ### Feedback form
@@ -567,16 +566,16 @@ and 10 features:
 * Allows users to give feedback to the developer about the quiz
 * User story 6
 
-![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/feedback.png)
+![](docs/features/feedback.png)
 
 
-### PLay again button
+### Play again button
 
 * Allows users to play the game again in the hope of improving their score before submitting their email
 * User story 10
 
 
-![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/play-again.png)
+![](docs/features/play-again.png)
 
 ### Form Validation
 
@@ -584,8 +583,8 @@ and 10 features:
 * They must use a valid email address. It looks for an @ symbol
 * User story 14, 15
 
-![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/name-validation.png)
-![](https://github.com/ouzifeng/CI_PP2_QUIZ/blob/main/docs/features/email-validation.png)
+![](docs/features/name-validation.png)
+![](docs/features/email-validation.png)
 
 ### Feedback
 
