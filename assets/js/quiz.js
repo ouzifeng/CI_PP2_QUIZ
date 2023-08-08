@@ -174,7 +174,6 @@ function startQuiz() {
   showQuestion(); 
 }
 
-
 // This function displays the questions
 function showQuestion() {
   resetQuestions();
